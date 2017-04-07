@@ -21,7 +21,7 @@
 /**
  * Mantis Version
  */
-define( 'MANTIS_VERSION', '2.3.0-dev' );
+define( 'MANTIS_VERSION', '2.4.0-dev' );
 define( 'FILTER_VERSION', 'v9' );
 
 # --- constants -------------------
@@ -546,7 +546,7 @@ define( 'LOG_NONE', 0 );            # no logging
 define( 'LOG_EMAIL', 1 );           # all emails sent
 define( 'LOG_EMAIL_RECIPIENT', 2 ); # details of email recipient determination
 define( 'LOG_FILTERING', 4 );       # logging for filtering.
-define( 'LOG_AJAX', 8 );            # logging for AJAX / XmlHttpRequests
+define( 'LOG_AJAX', 8 );            # logging for AJAX
 define( 'LOG_LDAP', 16 );           # logging for LDAP
 define( 'LOG_DATABASE', 32 );       # logging for Database
 define( 'LOG_WEBSERVICE', 64 );     # logging for Web Service Requests
